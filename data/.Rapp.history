@@ -1,0 +1,17 @@
+load("/Users/medvedm/git/CLEAN.Hs/data/KEGG.Hs.rda")
+ls()
+names(KEGG.Hs)
+load("/Users/medvedm/Downloads/BioGPS_GeneAtlas_new2017/processedData/BioGPS_GeneAtlas_symbol.Rdata")
+ls()
+head(BioGPS_GeneAtlas_symbol)
+load("/Users/medvedm/tmp/gds596eset.RData")
+load("/Users/medvedm/tmp/gds596eset.RData")
+ls()
+head(gds596eset)
+head(pData(gds596eset))
+head(exprs(gds596eset))
+load("/Users/medvedm/tmp/gdsGPL96Platform.RData")
+ls()
+head(currPlatform)
+currPlatform[currPlatform$Gene==3576]
+currPlatform[currPlatform$Gene==3576,]
